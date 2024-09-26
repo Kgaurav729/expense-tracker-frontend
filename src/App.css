@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin:0;
+  padding:20px;
+}
+
+h1{
+  text-align:center;
+  color:#343a40;
+}
+
+form{
+  margin:20px 0;
+  background-color: #ffffff;
+  padding:15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form div{
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],input[type="number"],input[type="date"]{
+  width:100%;
+  padding :8px;
+  margin-bottom: 10px;
+  border:1px solid #ced4da;
+  border-radius: 4px;
+}
+
+button{
+  background-color: #007bff;
+  color:#fff;
+  border:none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #0056b3;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  background-color: #ffffff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button{
+  margin-left:5px;
+  background-color:#dc3545;
+}
+
+li button:hover{
+  background-color: #c82333;
+}
+
+.edit-button{
+  background-color: #ffc107;
+}
+
+.edit-button:hover{
+  background-color: #e0a800;
 }
